@@ -127,7 +127,8 @@ final class VersionHelper
                 }
                 else
                 {
-                    modifier += "_1";
+                    //modifier += "_1";
+                    // saving modifier as is to release property
                 }
 
                 response.release = modifier;
